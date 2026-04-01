@@ -57,6 +57,7 @@ python eval.py
 <p align="center">
   <img src="results.png" alt="Results" width="800">
 </p>
+
 You can view the [results](https://drive.google.com/file/d/1xe4CqAR_7c0RB-HS5LtE82AdTxRNdhV3/view?usp=sharing) of our model on four benchmark datasets.
 
 # Our Bib:
