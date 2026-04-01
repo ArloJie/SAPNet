@@ -32,11 +32,13 @@ python extract_dino_tokens.py --input_dir <path_to_dataset> --output_dir <path_t
 ```
 # 3. Training the Model
 After dataset preparation and token extraction, start training with:
+
 In the first stage, the model generates pseudo labels.
 ```bash
 python train-label.py
 python test-label.py
 ```
+You can directly use the [pseudo labels](https://drive.google.com/file/d/1HuBFxozfQKFplM8MhskwGcXUKXu3mcPR/view?usp=sharing) we provide.
 
 In the second stage.
 ```bash
