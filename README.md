@@ -1,5 +1,8 @@
 # SAPNet
 Self-Anchored Progressive Framework with Noise Mitigation for Unsupervised Camouflaged Object Detection
+<p align="center">
+  <img src="overview.png" alt="Overview" width="800">
+</p>
 # Usage
 This code was implemented with Python 3.9, PyTorch 2.4.1 and CUDA 12.4 on an NVIDIA GeForce GTX 3090.
 # 1. Dataset Preparation
@@ -32,9 +35,13 @@ After dataset preparation and token extraction, start training with:
 python train.py
 ```
 # 4. Evaluating the Model
-To evaluate the trained model, run:
+To generate prediction maps:
 ```bash
 python test.py
+```
+To compute evaluation metrics:
+```bash
+python eval.py
 ```
 # Results
 You can view the [results](https://drive.google.com/file/d/1xe4CqAR_7c0RB-HS5LtE82AdTxRNdhV3/view?usp=sharing) of our model on four benchmark datasets.
