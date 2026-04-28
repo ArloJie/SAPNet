@@ -61,8 +61,8 @@ python eval.py
 You can view the [results](https://drive.google.com/file/d/1xe4CqAR_7c0RB-HS5LtE82AdTxRNdhV3/view?usp=sharing) of our model on four benchmark datasets.
 
 # Our Bib:
-```bash
 Thanks for citing our work:
+```bash
 @article{liu2026self,
   title={Self-Anchored Progressive Framework With Noise Mitigation for Unsupervised Camouflaged Object Detection},
   author={Liu, Shijie and Xu, Binwei and Shen, Tuo and Yue, Guanghui and Jiang, Qiuping},
